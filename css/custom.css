@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Encabezado Naranja */
+header {
+    background-color: #ff8533; 
+    padding: 15px 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav a {
+    color: #0066cc;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+/* Contenido Principal */
+main {
+    flex-grow: 1;
+    max-width: 800px;
+    margin: 50px auto;
+    width: 100%;
+}
+
+/* Tarjeta Central */
+.tarjeta-perfil {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    margin-bottom: 40px;
+    gap: 40px;
+}
+
+.avatar {
+    width: 130px;
+    height: auto;
+}
+
+.info-perfil h1 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+.info-perfil h2 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+}
+
+/* Sección Formación */
+.seccion-formacion {
+    padding: 0 40px;
+}
+
+.seccion-formacion h3 {
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: normal;
+}
+
+.seccion-formacion ul {
+    list-style-type: none;
+}
+
+.seccion-formacion li {
+    margin-bottom: 18px;
+    font-size: 14px;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.icono {
+    margin-right: 15px;
+    font-size: 12px;
+}
+
+.icono-flecha {
+    margin-right: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Pie de página */
+footer {
+    background-color: #1c2633;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+    margin-top: auto;
+}
+
+footer .resalte {
+    color: #ff8533;
+}
